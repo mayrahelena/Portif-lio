@@ -1,0 +1,80 @@
+/* Seção de Projetos */
+#secao-projetos {
+    margin: 10px 10px 10px 10px; /* Margens definidas em sentido horário */
+    padding: 10px;
+    gap: 1em; /* Ajuste o valor do gap para espaçamento entre os projetos */
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: row; /* Organiza os itens em linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem em linhas */
+    justify-content: space-between; /* Distribui os itens uniformemente */
+    border: 1px solid #ccc; /* Borda para visualização (opcional) */
+  }
+  
+  /* Caixa de cada Projeto */
+  .caixas-projeto {
+    width: 45%; /* Largura fixa para cada elemento (pode ser ajustado) */
+    max-width: 350px; /* Largura máxima para responsividade */
+    margin-bottom: 20px; /* Espaçamento entre os elementos */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  /* Imagem do Projeto */
+  .container-img-projeto img {
+    width: 100%; /* Largura total da imagem */
+    height: auto; /* Proporcionalidade da altura */
+    border-radius: 10px; /* Arredondamento dos cantos */
+  }
+  
+  /* Detalhes do Projeto */
+  .container-detalhes-projeto {
+    padding: 15px;
+  }
+  
+  .container-detalhes-projeto h3 {
+    font-family: Arial, sans-serif; /* Fonte para o título */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte (negrito) */
+    margin-top: 10px; /* Espaçamento superior */
+    margin-bottom: 5px; /* Espaço inferior */
+  }
+  
+  .container-detalhes-projeto p.tecnologias-usadas {
+    font-size: 14px; /* Tamanho da fonte para tecnologias */
+    margin-bottom: 10px; /* Espaço inferior */
+  }
+  
+  .container-detalhes-projeto ul.icones-tec {
+    list-style: none; /* Remover marcadores padrão */
+    padding: 0; /* Remover espaçamento interno */
+    margin: 0; /* Remover margem externa */
+    display: flex; /* Ativar Flexbox na lista */
+    flex-wrap: wrap; /* Permitir quebra de linha */
+    justify-content: space-between; /* Distribuir itens uniformemente */
+  }
+  
+  .container-detalhes-projeto ul.icones-tec li {
+    margin-bottom: 10px; /* Espaçamento entre itens */
+  }
+  
+  .container-detalhes-projeto ul.icones-tec li img {
+    width: 30px; /* Tamanho das imagens */
+    height: auto; /* Proporcionalidade da altura */
+    margin-right: 5px; /* Espaçamento à direita */
+  }
+  
+  /* Botões */
+  .container-botoes-projeto button {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor da fonte branca */
+    border: none; /* Remover borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    cursor: pointer; /* Indicador de clique */
+    margin-top: 10px; /* Espaçamento superior */
+    transition: background-color 0.3s ease; /* Efeito de hover */
+  }
+  
+  .container-botoes-projeto button:hover {
+    background-color: #0056b3; /* Cor de fundo azul escuro no hover */
+  }
+ 

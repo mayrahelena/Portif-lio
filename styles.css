@@ -1,8 +1,8 @@
 
 header, body, footer, a {    
-    background-color: #0B0B0B;    ;
-    color: #FFFFFF;
-    unicode-bidi: initial;
+  background-color: #0B0B0B;    ;
+  color: #FFFFFF;
+  unicode-bidi: initial;  
 }
 
 body{
@@ -10,104 +10,106 @@ body{
 }
 
 ul {
-    display: initial; /* Reverte para o valor inicial (inline) */
-    list-style-type: initial; /* Reverte para o valor inicial (disc) */
-    margin-block-start: initial; /* Reverte para o valor inicial (0) */
-    margin-block-end: initial; /* Reverte para o valor inicial (0) */
-    margin-inline-start: initial; /* Reverte para o valor inicial (0) */
-    margin-inline-end: initial; /* Reverte para o valor inicial (0) */
-    padding-inline-start: initial; /* Reverte para o valor inicial (0) */
-    unicode-bidi: initial; /* Reverte para o valor inicial (normal) */
-    text-decoration: none; /* tira o sublinhado*/
-    list-style-type: none;
+  display: initial; /* Reverte para o valor inicial (inline) */
+  list-style-type: initial; /* Reverte para o valor inicial (disc) */
+  margin-block-start: initial; /* Reverte para o valor inicial (0) */
+  margin-block-end: initial; /* Reverte para o valor inicial (0) */
+  margin-inline-start: initial; /* Reverte para o valor inicial (0) */
+  margin-inline-end: initial; /* Reverte para o valor inicial (0) */
+  padding-inline-start: initial; /* Reverte para o valor inicial (0) */
+  unicode-bidi: initial; /* Reverte para o valor inicial (normal) */
+  text-decoration: none; /* tira o sublinhado*/
+  list-style-type: none;   
   }
 
 header{    
-    width: 100%;      
-    display: flex;
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    justify-content: space-between; /* Distribui os itens com 
-    espaço entre eles nas extremidades */
+  width: 100%;      
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  justify-content: space-between; /* Distribui os itens com 
+  espaço entre eles nas extremidades */
 }
+
+/*titulo*/
 
 code{
-  border: green solid;
-    font-family: Fira Code;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2rem; /*controla o espaço entre as linhas, 
-    ajustando a respirabilidade do texto e garantindo uma leitura agradável em qualquer dispositivo.*/
-    color: #97EDAA;
-    margin-left: 1%;
-    letter-spacing:-0.1em; /* reduzi o espaço entre os caracteres em 0.1em. */    
+  font-family: Fira Code;
+  font-size: 1.5rem; /* 24px */
+  font-weight: 400;
+  line-height: 2rem; /*controla o espaço entre as linhas, 
+  ajustando a respirabilidade do texto e garantindo uma leitura agradável em qualquer dispositivo.*/
+  color: #97EDAA;
+  margin-left: 1%;
+  letter-spacing:-0.1em; /* reduzi o espaço entre os caracteres em 0.1em. */    
 }
 
+/* menu superior direito */ 
+
 #container-menu-principal{
-  border: green solid;
-    font-family: Archivo;
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1%;
-    list-style: none; /* Remove os marcadores padrão da lista */
-    flex-direction: row; /* Define a direção dos itens como linha (horizontal) */
-    display: flex;
-    align-items: center;
+  font-family: Archivo;
+  font-size: 1.125rem;/* 18px */
+  font-weight: 500;
+  line-height: 1.225rem;/* Aproximadamente 19.58px */
+  list-style: none; /* Remove os marcadores padrão da lista */
+  flex-direction: row; /* Define a direção dos itens como linha (horizontal) */
+  display: flex;
+  align-items: center;
 }
 
 .menu-principal{
-  border: red solid;
-    font-family: Archivo;
-    font-size: 1.125rem; /* 18px*/
-    font-weight: 500;
-    line-height: 1.25rem; /*20px*/
-    margin-right: 2vw; 
-    text-decoration: none;
+  font-family: Archivo;
+  font-size: 1.125rem; /* 18px*/
+  font-weight: 500;
+  line-height: 1.25rem; /*20px*/
+  margin-right: 2vw; 
+  text-decoration: none;
 }
 
 .menu-principal:hover, .link-contato:hover, .contato-item a:hover {
-    transition: color 0.50s;
-    color: #97EDAA; /* Muda a cor do texto*/
+  transition: color 0.50s;
+  color: #97EDAA; /* Muda a cor do texto*/
 }
 
+/* cabeçalho e apresentação */
+
 #cabecalho{
-  border: red solid;
-    display: flex; /* Ativa o layout flexbox para o cabeçalho */
-    align-items: center; /* Alinha os elementos verticalmente no centro */
-    justify-content: space-between; /* Distribui os elementos horizontalmente com espaço entre eles */
-    /*margin: 0 auto; Centraliza o container na tela */
-    margin: 1% 0 1% 1%;
-    padding: 1%; /* Adiciona espaço interno ao cabeçalho esse espaço vem por fora da section*/
+  display: flex; /* Ativa o layout flexbox para o cabeçalho */
+  align-items: center; /* Alinha os elementos verticalmente no centro */
+  justify-content: space-between; /* Distribui os elementos horizontalmente com espaço entre eles */
+  /*margin: 0 auto; Centraliza o container na tela */
+  margin: 2% 0 2% 2%;
+  padding: 2%; /* Adiciona espaço interno ao cabeçalho esse espaço vem por fora da section*/
 }
 
 .apresentacao{   
-    font-family: Archivo;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    text-align: left;
-    display: flex;
-    margin: 0;
+  font-family: Archivo;
+  font-size: 1.5rem; /* 24 px */
+  line-height: 1.6rem; /* 25.6 px */
+  text-align: left;
+  display: flex;
+  margin: 0;
 }
 
 #cabecalho h1{
-    font-family: Archivo;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 52.22px;
-    text-align: left;
-    margin: 0;
-    color: #97EDAA;
+  font-family: Archivo;
+  font-size: 3rem; /* 48px */
+  font-weight: 400;
+  line-height: 3.26rem; /* 52.16px */
+  text-align: left;
+  margin: 0;
+  color: #97EDAA;
 }
 
 #btnDownloadCurriculo{
-    background-color: #97EDAA;
-    border-radius: 5px;
-    margin: 15px 15px 0 0; 
+  background-color: #97EDAA;
+  border-radius: 5px;
+  margin: 15px 15px 0 0; 
 }
 
 #btnDownloadCurriculo:hover{
-    color: #0B0B0B;    
-    background-color:#649d70;
-    border-radius: 5px;
+  color: #0B0B0B;    
+  background-color:#649d70;
+  border-radius: 5px;
 }
 
 #container-img-principal{
@@ -115,81 +117,93 @@ code{
   width: 50%;
   text-align: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column ;
   border-radius: 5px;
 }
 
 .img-principal{
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente */
-    text-align: center;
-    display: flex;
-    width: 50%;
-    box-shadow: inset 0 0 5px rgba(126, 127, 126, 0.1); /* Sombra preta com opacidade 30% */
-    border-radius: 5px;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  text-align: center;
+  display: flex;
+  width: 50%;
+  flex-direction: column ;
+  box-shadow: inset 0 0 5px rgba(126, 127, 126, 0.1); /* Sombra preta com opacidade 30% */
+  border-radius: 5px;
 }
+
+/* todos titulos */
 
 .titulos{
-    font-family: Archivo;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 34.82px;
-    text-align: center;
-    color: #97EDAA;
-    font-family: Archivo;
-    
+  font-family: Archivo;
+  font-size: 2rem; /* 32px */
+  font-weight: 400;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #97EDAA;
+  font-family: Archivo;    
 }
+
+/* sobre mim */
 
 #sobre-mim p{
-    font-family: Archivo;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 38.4px;
-    text-align: center;
-    margin: 20px 20px 20px 20px;
+  font-family: Archivo;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem; /* 28.4px */
+  text-align: center;
+  margin: 20px 20px 20px 20px;
 }
 
+/* contatos */ 
+
 .container-contato{
-    display: flex;    
-    justify-content: center; /* Centraliza os itens na horizontal */
-    
+  display: flex;    
+  justify-content: center; /* Centraliza os itens na horizontal */
 }
 
 .contato-item{
-    display: flex;
-    justify-content: center; /* Centraliza os itens na horizontal */
-    
+  display: flex;
+  justify-content: center; /* Centraliza os itens na horizontal */   
 }
 
 .contato-item img{
-    width: 52px;
-    height: 52px;
-    padding: 25px;
-    color: #ffffff;
-    transition: color 0.4s ease;
+  width: 52px;
+  height: 52px;
+  padding: 25px;
+  color: #97EDAA;
+  transition: color 0.4s ease;
 }
 
 .contato-item img:hover {
-    transform: translateY(-10px); /* Move 10px para cima no hover */
-    filter: brightness(60%); /*escurece a imagem */   
+  transform: translateY(10px); /* Move 10px para cima no hover */
+  color: #fff; /* Cor branca no hover */
+  width: 30px; /* Define a largura da caixa como 30px */
+  height: 30px; /* Define a altura da caixa como 30px */
+  box-shadow: 0 0 10px #97EDAA; /* Adiciona sombra na cor desejada */
 }
-  
+
+/* projetos */
+
   #container-projetos {
-    width: 100%;
-    display: flex; /* Define o layout do article como flexbox */
-    flex-wrap: wrap; /* Permite que os itens flex sejam quebrados em várias linhas */
-    justify-content: center; /* Centraliza os itens flex dentro do article */   
+  width: 100%;
+  display: flex; /* Define o layout do article como flexbox */
+  flex-wrap: wrap; /* Permite que os itens flex sejam quebrados em várias linhas */
+  justify-content: center; /* Centraliza os itens flex dentro do article */   
 }
   
-  .caixa-projeto {
+ .caixa-projeto {
     width: 45%; /* Define a largura das caixas como 45% */
     margin: 1em; /* Adiciona uma margem de 10 pixels em todos os lados */   
     padding: 1em; /* Adiciona um preenchimento interno de 10 pixels em todos os lados */
     display: flex;
     flex-direction: column;
     text-align: left;
-    gap: 1em;
-    background: #101010;    
+    background: #101010; 
   }
+
+  /* Imagens de projetos */
 
   .container-img-projeto {
     text-align: center; /* Centraliza o texto dentro do container de imagem */
@@ -204,19 +218,21 @@ code{
     object-fit: cover; /*Faz com que a imagem cubra o container sem distorção */    
   }
   
+  /* Detalhes do projeto */
+
   .container-detalhes-projeto {
     text-align: left;
   }
   
   .container-detalhes-projeto h3 {
     font-family: Archivo;
-    font-size: 24px;
+    font-size: 1.5rem; /*24px*/
     font-weight: 500;
-    line-height: 26.11px;
+    line-height: 1.63rem;
     text-align: left;
   }
   
-  .container-detalhes-projeto p {
+  /*.container-detalhes-projeto p {
     font-family: Archivo;
     font-size: 18px;
     font-weight: 500;
@@ -225,28 +241,33 @@ code{
   }
   
   .icones-tec {
-    display: flex; /* Define o layout como flexbox */    
+    display: flex; /* Define o layout como flexbox     
     text-align: left; 
     align-items: center;  
   }
   
+  
   .icones-tec li {
-    margin-right: 20px; /* Adiciona 20px de margem à direita */     
-    width: 3em; /* Define a largura da imagem para 30 pixels */
-    height: 3em; /* Define a altura da imagem para 30 pixels */
+    margin-right: 20px; /* Adiciona 20px de margem à direita     
+    width: 3em; /* Define a largura da imagem para 30 pixels 
+    height: 3em; /* Define a altura da imagem para 30 pixels 
     
-    /* text-align: left não funciona pois tem o disply flex*/
+    /* text-align: left não funciona pois tem o disply flex
   }
-  
-  .icones-tec li img {
-    text-align: left;não funciona
+  */
+
+
+  /* .icones-tec li img {
+    text-align: left;
     align-items: center; não funciona
-    margin-right: 1.5em; /* Adiciona 10px de margem à direita */
-    width: 100%; /* Define a largura da imagem para 30 pixels */
-    height: 100%; /* Define a altura da imagem para 30 pixels */
-    object-fit: cover; /* Faz com que a imagem cubra o container sem distorção */
-  }
-  
+    margin-right: 1.5em; /* Adiciona 10px de margem à direita
+    width: 100%; /* Define a largura da imagem para 30 pixels 
+    height: 100%; /* Define a altura da imagem para 30 pixels 
+    object-fit: cover; /* Faz com que a imagem cubra o container sem distorção 
+  } */
+
+  /* Botões do projeto */
+
   .container-botoes-projeto {
     display: flex; /* Define o layout como flexbox */
     justify-content: left; /* Centraliza os botões dentro do container */
@@ -268,6 +289,8 @@ code{
     background-color: #649d70; /* Muda a cor de fundo dos botões para um azul mais escuro ao passar o mouse */
   }
 
+  /* Habilidades*/
+
 #container-habilidades{
     width: 100%;
     display: flex;
@@ -278,8 +301,8 @@ code{
 }
 
 .habilidades-icones{
-    width: 4em ; /* 1em relativo ao tamanho da fonte do elemento pai, nesse caso como não tem seria 16px */
-    height: 4em;
+    width: 64px; /* 1em relativo ao tamanho da fonte do elemento pai, nesse caso como não tem seria 16px */
+    height: 64px;
     background-color: #97EDAA;
     display: flex;
     flex-direction: row;
@@ -288,6 +311,8 @@ code{
     object-fit: cover; /* Faz com que a imagem cubra o container sem distorção */
   } 
   
+ /*rodape */ 
+
 footer{
    
     color: #97EDAA;
@@ -307,93 +332,268 @@ footer div{
 
 footer div a{
     font-family: Archivo;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: 19.58px;
+    line-height: 1.1rem;
     margin-right: 30px;
     text-decoration: none; /* tira o sublinhado*/
     transition: color 0.3s, background-color 0.3s; /* Transição suave para as mudanças */
     color: #97EDAA;
 }
 
-
+/* Reponsivos */ 
 
 @media (max-width: 768px) {
 
-body{
-  font-size: 14px;
+/*titulo*/
+
+code{
+  font-size: 1.2rem; /*19.2px*/
 }
 
-/* apresentação */ 
+/* menu superior direito */ 
+
+#container-menu-principal{
+  font-size: 1rem;/* 16px */
+}
+
+.menu-principal{
+  font-size: 1rem; /* 16px*/
+}
+
+/* cabeçalho e apresentação */ 
 
 .apresentacao{   
-  font-size: 1.2rem;  
+  font-size: 1.25rem; /* 20px */
+  font-weight: 250; 
 }
 
 #cabecalho h1{
-  font-family: Archivo;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 2.3rem;
+  font-size: 2rem; /*32px */ 
+  line-height: 2.5rem; /* 40px */ 
+  font-weight: 250;
 }
 
 #btnDownloadCurriculo{
+  font-size: 1.1rem;
+  border-radius: 5px;
   margin: 10px 10px 0 0; 
 }
 
-.img-principal{
-
-}
+/* todos titulos */
 
 .titulos{
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   font-weight: 300;
-  line-height: 22px;
+  line-height: 1.4rem; /* 22.4px */
 }
 
+/* sobre mim */
+
 #sobre-mim p{
-  font-family: Archivo;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 24px;
+  font-size: 1.25rem;
+  font-weight: 100;
+  line-height: 1.5rem; /* 24px */
   margin: 15px 15px 15px 15px;
 }
 
-.contato-item img .habilidades-icones{
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: 1.25rem;
-  color: #ffffff;
-  transition: color 0.4s ease;
+/* contatos */ 
+
+.contato-item img{
+  width: 40px;
+  height: 40px;
+  padding: 20px;
 }
 
-.container-detalhes-projeto h3 {
-  font-family: Archivo;
-  font-size: 1rem;
+.contato-item img:hover {
+  width: 25px; /* Define a largura da caixa como 30px */
+  height: 25px; /* Define a altura da caixa como 30px */ 
+}
+
+/*projetos */ 
+
+.caixa-projeto {
+  width: 100%; /* Ocupa a largura total da tela */
+  margin: 0 20px 20px 20px;
+}
+
+/* Imagens de projetos */
+
+.container-img-projeto {
+  text-align: center; /* Centraliza a imagem horizontalmente */
+}
+
+.container-img-projeto img {
+  width: 100%; /* Ocupa a largura total do container */
+  max-width: 450px; /* Limita a largura máxima da imagem */
+  height: auto; /* Ajusta a altura automaticamente */
+  margin: 0 auto; /* Centraliza a imagem na vertical */
+}
+
+/* Detalhes do projeto */
+
+.container-detalhes-projeto {
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.container-detalhes-projeto h3{  
   font-weight: 300;
-  line-height: 2rem;
-  text-align: left;
-}
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem; /*19aprox */
+  margin-top: 15px;
+  margin-bottom: 15px; /* Adiciona espaço abaixo do título */
+}  
 
-.icones-tec li {
-  margin-right: 1.5rem; /* Adiciona 20px de margem à direita */     
-  width: 3rem; /* Define a largura da imagem para 30 pixels */
-  height: 3rem; /* Define a altura da imagem para 30 pixels */
-}
+/* Botões do projeto */
 
 .container-botoes-projeto {
-  margin-right: 1.5rem; /* Adiciona 32px de margem à direita */
+  display: flex; /* Ativa layout flexbox */
+  flex-direction: column; /* Organiza os botões em coluna */
+  align-items: center; /* Alinha os botões horizontalmente no centro */
+  gap: 5px; /* Adiciona espaço entre os botões */
+  padding: 5px; /* Adiciona padding ao redor dos botões */
 }
 
-.container-botoes-projeto button {
-  padding: 8px 10px; /* Adiciona um preenchimento interno de 10px em cima/baixo e 15px nas laterais */
-  margin: 0 15px 0 0; /* Adiciona uma margem de 5 pixels nas laterais dos botões */
- }
-
+.container-botoes-projeto button{
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 0 0 10px 0;
 }
 
+
+/* Habilidades*/
+
+ .habilidades-icones{
+  width: 48px ; /* 1em relativo ao tamanho da fonte do elemento pai, nesse caso como não tem seria 16px */
+  height: 48px;
+}
+
+/*rodape */ 
+
+footer div p, footer div a {  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 0.9rem;
+  margin-right: 20px;
+}
 
 @media(max-width: 480px){
 
+/*titulo*/
 
+code {
+  font-size: 0.8rem; 
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+/* menu superior direito */
+#container-menu-principal {
+  font-size: 0.6rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.menu-principal {
+  font-size: 0.8rem; /* 16px */
+  margin-left: 0.5rem;
+  
+}
+
+/* cabeçalho e apresentação */
+
+#cabecalho{
+  margin-bottom: 2rem;
+}
+
+.apresentacao {
+  font-size: 1rem; /* 16px */
+  font-weight: 250;
+}
+
+#cabecalho h1 {
+  font-size: 1.6rem; /* 25.6px */
+  line-height: 2rem; /* 32px */
+  font-weight: 250;
+}
+
+#btnDownloadCurriculo {
+  font-size: 1rem; /* 16px */
+  border-radius: 5px;
+  margin: 8px 8px 0 0;
+}
+
+/* sobre mim */
+.titulos {
+  font-size: 1.2rem; /* 19.2px */
+  font-weight: 200;
+  line-height: 1.12rem; /* 17.92px */
+}
+
+#sobre-mim p {
+  font-size: 1rem; /* 16px */
+  font-weight: 100;
+  line-height: 1.2rem; /* 19.2px */
+  margin: 12px 12px 12px 12px;
+}
+
+/* contatos */
+.contato-item img {
+  width: 32px;
+  height: 32px;
+  padding: 16px;
+}
+
+.contato-item img:hover {
+  width: 18px; /* Define a largura da caixa como 30px */
+  height: 18px; /* Define a altura da caixa como 30px */ 
+}
+
+/* projetos */
+
+.caixa-projeto {
+  margin: 0 10px 10px 10px;
+  padding: 0;
+}
+
+/* Imagens de projetos */
+
+.container-img-projeto img {
+  max-width: 300px; /* Limita a largura máxima da imagem */
+}
+
+/* Detalhes do projeto */
+
+.container-detalhes-projeto h3 {
+  font-size: 1rem; /* 16px */
+  line-height: 1rem; /* 16px */
+}
+
+.container-detalhes-projeto h3{
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+/* Botões do projeto */
+
+.container-botoes-projeto button { 
+  font-size: 1rem; 
+  margin-bottom: 0.8rem; /* Adiciona 15px de margem inferior */
+}
+
+/* Habilidades*/
+
+.habilidades-icones {
+  width: 38.4px; /* 2.4em relativo ao tamanho da fonte do elemento pai, nesse caso como não tem seria 12.8px */
+  height: 38.4px;
+}
+
+/* rodape */
+footer div p, footer div a  {
+  font-size: 0.8rem; 
+  font-weight: 200;
+  line-height: 0.72rem; 
+  margin-right: 16px;
+}
 }

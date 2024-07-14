@@ -1,229 +1,293 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <body>
+  <body>
+    <header>
+      <code>&lt;Mayra Oliveira&#47;&gt;</code>
+      <!-- uso de entidades, caracteres que expressam um icone -->
 
-        <header>
+      <nav>
+        <ul id="container-menu-principal">
+          <!-- <li><a class="menu-principal" href="#inicio">Início</a></li> -->
+          <li><a class="menu-principal" href="#sobre-mim">Sobre Mim</a></li>
+          <li><a class="menu-principal" href="#secao-projetos">Projetos</a></li>
+          <!-- <li><a class="menu-principal" href="#secao-servicos">Serviços</a></li> -->
+          <li><a class="menu-principal" href="#habilidades">Habilidades</a></li>
+        </ul>
+      </nav>
+    </header>
 
-            <code>&lt;Mayra Oliveira&#47;&gt;</code> <!-- uso de entidades, caracteres que expressam um icone --> 
-            
-            <nav>
-                <ul id="container-menu-principal"> 
-                    <!-- <li><a class="menu-principal" href="#inicio">Início</a></li> -->
-                    <li><a class="menu-principal" href="#sobre-mim">Sobre Mim</a></li>
-                    <li><a class="menu-principal" href="#secao-projetos">Projetos</a></li>
-                   <!-- <li><a class="menu-principal" href="#secao-servicos">Serviços</a></li> -->
-                    <li><a class="menu-principal" href="#habilidades">Habilidades</a></li>    
-                </ul>
-            </nav>
-            
-        </header>
-
-        <section id="cabecalho"> 
-            <div>
-                <h2 class="apresentacao">Olá, eu sou</h2>
-                <h1>Mayra Oliveira</h1>
-                <h2 class="apresentacao">Desenvolvedora Frontend.</h2>
-                <button type="button" id="btnDownloadCurriculo" download="https://1drv.ms/b/c/dd9d6956ad4efbf3/ERUT1bP1FsZFnMQK7HBB7dcB7O_IUzwFec4c9nePcDe-WA?e=yD4XZy">Baixar Currículo</button>
-                <!-- atributo dowlond permite baixar o arrquivo em pdf direto da pagina/ 
+    <section id="cabecalho">
+      <div>
+        <h2 class="apresentacao">Olá, eu sou</h2>
+        <h1>Mayra Oliveira</h1>
+        <h2 class="apresentacao">Desenvolvedora Frontend.</h2>
+        <button
+          type="button"
+          id="btnDownloadCurriculo"
+          download="https://1drv.ms/b/c/dd9d6956ad4efbf3/ERUT1bP1FsZFnMQK7HBB7dcB7O_IUzwFec4c9nePcDe-WA?e=yD4XZy"
+        >
+          Baixar Currículo
+        </button>
+        <!-- atributo dowlond permite baixar o arrquivo em pdf direto da pagina/ 
                  necessario incluir o link do arquivo salvo em nuvem no atributo href-->
+      </div>
+
+      <div id="container-img-principal">
+        <img
+          class="img-principal"
+          src="imagens/principal.png"
+          alt="computador conectado ao mundo"
+        />
+      </div>
+    </section>
+
+    <main>
+      <section id="sobre-mim">
+        <h2 class="titulos">Sobre mim</h2>
+        <p>
+          Estudante de Análise e Desenvolvimento de Sistemas, apaixonada por
+          Frontend e dedicada a criar projetos inovadores. Busco excelência em
+          usabilidade, combinando habilidades técnicas com criatividade para
+          construir experiências digitais memoráveis."
+        </p>
+        <!--Contatos-->
+        <div class="container-contato">
+          <div class="contato-item">
+            <a
+              href="https://www.linkedin.com/in/mayraoliveiradev/"
+              target="_blank"
+              class="link-contato"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"
+                alt="icone LinkdIn"
+              />
+            </a>
+          </div>
+
+          <div class="contato-item">
+            <a href="mailto:may.helenaoliveira@gmail.com" class="link-contato">
+              <img
+                src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png"
+                alt="icone Email"
+              />
+            </a>
+          </div>
+
+          <div class="contato-item">
+            <a
+              href="https://www.instagram.com/mayra.holiveira/"
+              target="_blank"
+              class="link-contato"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png"
+                alt="Icone Instagram"
+              />
+            </a>
+          </div>
+
+          <div class="contato-item">
+            <a
+              href="https://wa.me/5531991909665"
+              target="_blank"
+              class="link-contato"
+            >
+              <img
+                src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png"
+                alt="Icone WhatsApp"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="secao-projetos">
+        <h2 class="titulos">Meus Projetos</h2>
+
+        <article id="container-projetos">
+          <div class="caixa-projeto">
+            <div class="container-img-projeto">
+              >
+              <img src="imagens/inicio1.jpg" alt="Projeto 1" />
             </div>
 
-            <div id="container-img-principal">
-                <img class="img-principal" src="imagens/principal.png" alt="computador conectado ao mundo">
-            </div>
-            
-        </section>
-
-        <main>        
-    
-            <section id="sobre-mim">
-                <h2 class="titulos">Sobre mim</h2>
-                <p>Sou Mayra Oliveira, estudante de Análise e Desenvolvimento de Sistemas, 
-                    apaixonada por Frontend e dedicada a criar projetos inovadores. 
-                    Busco excelência em usabilidade, combinando habilidades técnicas com 
-                    criatividade para construir experiências digitais memoráveis."
-                </p>
-
-                <div class="container-contato">
-                    <div class="contato-item">                    
-                        <a href="https://www.linkedin.com/in/mayraoliveiradev/" target="_blank" class="link-contato">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="icone LinkdIn">
-                        </a>
-                    </div>
-                    
-                    <div class="contato-item">
-                        <a href="mailto:may.helenaoliveira@gmail.com" class="link-contato">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png" alt="icone Email">
-                        </a>
-                    </div>
-
-                    <div class="contato-item">                    
-                        <a href="https://www.instagram.com/mayra.holiveira/" target="_blank" class="link-contato">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Icone Instagram">
-                        </a>
-                    </div>
-
-                    <div class="contato-item">
-                        <a href="https://wa.me/5531991909665" target="_blank" class="link-contato">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="Icone WhatsApp">
-                        </a>
-                    </div>
-
-                </div>    
-            
-            </section>            
-
-            <section id="secao-projetos">
-                <h2 class="titulos">Meus Projetos</h2>
-
-                <article id="container-projetos">                    
-
-                        <div class="caixa-projeto">
-
-                            <div class="container-img-projeto">>
-                                <img src="imagens/inicio1.jpg" alt="Projeto 1">
-                            </div>
-
-                            <div class="container-detalhes-projeto">
-                                <h3>Nome do Projeto 1</h3>
-                                <p class="tecnologias-usadas">Tecnologias Usadas</p>
+            <div class="container-detalhes-projeto">
+              <h3>Nome do Projeto 1</h3>
+              <!-- <p class="tecnologias-usadas">Tecnologias Usadas</p>
                                 <div>
                                     <ul class="icones-tec">
                                         <li><img src="imagens/icone-tec1.png" alt="Tec 1"></li>
                                         <li><img src="imagens/icone-tec2.png" alt="Tec 2"></li>
                                         <li><img src="imagens/icone-tec3.png" alt="tec 3"></li>
                                     </ul>
-                                </div>
-                            </div>
+                                </div> -->
+            </div>
 
-                            <div class="container-botoes-projeto">
-                                <button aria-label="Acessar o projeto online">Acessar o projeto</button> <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
-                                <button aria-label="Acessar o repositório no GitHub" title="Visualize o código-fonte do projeto no GitHub">Acessar repositório</button>
-                            </div>
+            <div class="container-botoes-projeto">
+              <button aria-label="Acessar o projeto online">
+                Acessar o projeto
+              </button>
+              <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
+              <button
+                aria-label="Acessar o repositório no GitHub"
+                title="Visualize o código-fonte do projeto no GitHub"
+              >
+                Acessar repositório
+              </button>
+            </div>
+          </div>
 
-                        </div>
+          <div class="caixa-projeto">
+            <div class="container-img-projeto">
+              >
+              <img src="imagens/inicio1.jpg" alt="Projeto 1" />
+            </div>
 
-                        <div class="caixa-projeto">
-
-                            <div class="container-img-projeto">>
-                                <img src="imagens/inicio1.jpg" alt="Projeto 1">
-                            </div>
-
-                            <div class="container-detalhes-projeto">
-                                <h3>Nome do Projeto 1</h3>
-                                <p class="tecnologias-usadas">Tecnologias Usadas</p>
-                                <ul class="icones-tec">
-                                    <li><img src="imagens/icone-tec1.png" alt="tec 1"></li>
-                                    <li><img src="imagens/icone-tec2.png" alt="tec 2"></li>
-                                    <li><img src="imagens/icone-tec3.png" alt="tec 3"></li>
-                                </ul>
-                            </div>
-
-                            <div class="container-botoes-projeto">
-                                <button aria-label="Acessar o projeto online">Acessar o projeto</button> <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
-                                <button aria-label="Acessar o repositório no GitHub" title="Visualize o código-fonte do projeto no GitHub">Acessar repositório</button>
-                            </div>
-
-                        </div>
-
-                        <div class="caixa-projeto">
-
-                            <div class="container-img-projeto">>
-                                <img src="imagens/inicio1.jpg" alt="Projeto 1">
-                            </div>
-
-                            <div class="container-detalhes-projeto">
-                                <h3>Nome do Projeto 1</h3>
-                                <p class="tecnologias-usadas">Tecnologias Usadas</p>
-                                <ul class="icones-tec">
-                                    <li><img src="imagens/icone-tec1.png" alt="tec 1"></li>
-                                    <li><img src="imagens/icone-tec2.png" alt="tec 2"></li>
-                                    <li><img src="imagens/icone-tec3.png" alt="tec 3"></li>
-                                </ul>
-                            </div>
-
-                            <div class="container-botoes-projeto">
-                                <button aria-label="Acessar o projeto online">Acessar o projeto</button> <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
-                                <button aria-label="Acessar o repositório no GitHub" title="Visualize o código-fonte do projeto no GitHub">Acessar repositório</button>
-                            </div>
-
-                        </div>
-
-                        <div class="caixa-projeto">
-
-                            <div class="container-img-projeto">>
-                                <img src="imagens/inicio1.jpg" alt="Projeto 1">
-                            </div>
-
-                            <div class="container-detalhes-projeto">
-                                <h3>Nome do Projeto 1</h3>
-                                <p class="tecnologias-usadas">Tecnologias Usadas</p>
+            <div class="container-detalhes-projeto">
+              <h3>Nome do Projeto 1</h3>
+              <!--<p class="tecnologias-usadas">Tecnologias Usadas</p>
                                 <ul class="icones-tec">
                                     <li><img src="imagens/icone-tec1.png" alt="Tec 1"></li>
                                     <li><img src="imagens/icone-tec2.png" alt="Tec 2"></li>
                                     <li><img src="imagens/icone-tec3.png" alt="Tec 3"></li>
-                                </ul>
-                            </div>
-
-                            <div class="container-botoes-projeto">
-                                <button aria-label="Acessar o projeto online">Acessar o projeto</button> <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
-                                <button aria-label="Acessar o repositório no GitHub" title="Visualize o código-fonte do projeto no GitHub">Acessar repositório</button>
-                            </div>
-
-                        </div>
-
-                        
-                    
-                    
-
-                </article>
-
-            </section>      
-            
-            <section id="habilidades">
-                <h2 class="titulos">Habilidades</h2>
-                <div id="container-habilidades">
-                    <figure>
-                        <img class="habilidades-icones" src="https://img.icons8.com/ios-filled/50/000000/html-5.png" alt="Tecnologia HTML">
-                    </figure>
-                
-                    <figure>
-                        <img class="habilidades-icones" src="https://img.icons8.com/ios-filled/50/000000/css3.png" alt="Tecnologia CSS">
-                    </figure>
-                
-                    <figure>
-                        <img class="habilidades-icones" src="https://img.icons8.com/ios-filled/50/000000/javascript.png" alt="Tecnologia JavaScript">
-                    </figure>
-                </div>    
-              </section>
-              
-
-        </main> 
-
-        <footer>
-
-            <div>
-                <p>&copy; 2024 - Mayra Oliveira.</p>
+                                </ul> -->
             </div>
-        
-            <div>
-                <p>Powered by <a href="https://www.netlify.com/" target="_blank">Netlify</a></p>
-            </div>
-        
-        </footer>
-        
-        <script src="script.js"></script>
-        
-    </body>
 
+            <div class="container-botoes-projeto">
+              <button aria-label="Acessar o projeto online">
+                Acessar o projeto
+              </button>
+              <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
+              <button
+                aria-label="Acessar o repositório no GitHub"
+                title="Visualize o código-fonte do projeto no GitHub"
+              >
+                Acessar repositório
+              </button>
+            </div>
+          </div>
+
+          <div class="caixa-projeto">
+            <div class="container-img-projeto">
+              >
+              <img src="imagens/inicio1.jpg" alt="Projeto 1" />
+            </div>
+
+            <div class="container-detalhes-projeto">
+              <h3>Nome do Projeto 1</h3>
+              <!--<p class="tecnologias-usadas">Tecnologias Usadas</p>
+                                <ul class="icones-tec">
+                                    <li><img src="imagens/icone-tec1.png" alt="Tec 1"></li>
+                                    <li><img src="imagens/icone-tec2.png" alt="Tec 2"></li>
+                                    <li><img src="imagens/icone-tec3.png" alt="Tec 3"></li>
+                                </ul> -->
+            </div>
+
+            <div class="container-botoes-projeto">
+              <button aria-label="Acessar o projeto online">
+                Acessar o projeto
+              </button>
+              <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
+              <button
+                aria-label="Acessar o repositório no GitHub"
+                title="Visualize o código-fonte do projeto no GitHub"
+              >
+                Acessar repositório
+              </button>
+            </div>
+          </div>
+
+          <div class="caixa-projeto">
+            <div class="container-img-projeto">
+              >
+              <img src="imagens/inicio1.jpg" alt="Projeto 1" />
+            </div>
+
+            <div class="container-detalhes-projeto">
+              <h3>Nome do Projeto 1</h3>
+              <!--<p class="tecnologias-usadas">Tecnologias Usadas</p>
+                                <ul class="icones-tec">
+                                    <li><img src="imagens/icone-tec1.png" alt="Tec 1"></li>
+                                    <li><img src="imagens/icone-tec2.png" alt="Tec 2"></li>
+                                    <li><img src="imagens/icone-tec3.png" alt="Tec 3"></li>
+                                </ul> -->
+            </div>
+
+            <div class="container-botoes-projeto">
+              <button aria-label="Acessar o projeto online">
+                Acessar o projeto
+              </button>
+              <!--title para fornecer um texto descritivo adicional que pode ser exibido como dica de ferramenta ao passar o mouse sobre o botão.-->
+              <button
+                aria-label="Acessar o repositório no GitHub"
+                title="Visualize o código-fonte do projeto no GitHub"
+              >
+                Acessar repositório
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="habilidades">
+        <h2 class="titulos">Habilidades</h2>
+        <div id="container-habilidades">
+          <figure>
+            <img
+              class="habilidades-icones"
+              src="https://img.icons8.com/ios-filled/50/000000/html-5.png"
+              alt="Tecnologia HTML"
+            />
+          </figure>
+
+          <figure>
+            <img
+              class="habilidades-icones"
+              src="https://img.icons8.com/ios-filled/50/000000/css3.png"
+              alt="Tecnologia CSS"
+            />
+          </figure>
+
+          <figure>
+            <img
+              class="habilidades-icones"
+              src="https://img.icons8.com/ios-filled/50/000000/javascript.png"
+              alt="Tecnologia JavaScript"
+            />
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>&copy; 2024 - Mayra Oliveira.</p>
+      </div>
+
+      <div>
+        <p>
+          Powered by
+          <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
